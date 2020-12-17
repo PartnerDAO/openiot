@@ -1,0 +1,29 @@
+/* pages/todo/todo.wxss */
+.todo{
+  width: 730rpx;
+  height: 90rpx;
+  background-color: rgb(198, 198, 238);
+}
+.todolist{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-top: 30rpx;
+}
+.todolist checkbox {
+  margin-top: 20rpx;
+} 
+.todolist view{
+  margin-top: 20rpx;
+}
+.hline{
+  border: 1rpx solid rgb(79, 14, 182);
+  margin-top: 30rpx;
+}
+.add{
+  margin-top: 40rpx;
+  width: 730rpx;
+  height: 80rpx;
+  border: solid 1rpx rgb(136, 118, 240);
+}

@@ -1,0 +1,73 @@
+/* pages/home/home.wxss *//**index.wxss**/
+.head{
+  background-color: rgb(231, 229, 229);
+}
+.head{
+  width: auto;
+}
+.head image{
+  width: 100%;
+  height: 320rpx;
+}
+.plate{
+  height:240rpx;
+  /* background: rgb(231, 230, 230); */
+}
+.plate-item{
+  display: flex;
+  float:left;
+  position: relative;
+  width: 140rpx;
+  height:180rpx;
+  margin-top:20rpx; 
+  margin-left:42rpx;
+}
+.plate-img image{
+  width: 96rpx;
+  height: 96rpx;
+}
+.plate-info{
+  position: absolute;
+  height:40rpx;
+  font-size: 30rpx;
+  font-family: '微软雅黑';
+  bottom: 60rpx;
+  left:-10rpx;
+
+}
+
+.warning{
+  display: flex;
+  background-color: seashell;
+}
+
+.table {
+  border: 0px solid darkgray;
+ }
+ .tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 60rpx;
+  align-items: center;
+ }
+ .td {
+  width:40%;
+  justify-content: center;
+  text-align: center;
+ }
+ .bg-w{
+  background: snow;
+ }
+ .bg-g{
+  background: #E6F3F9;
+ }
+ .th {
+  width: 40%;
+  justify-content: center;
+  background: rgb(151, 145, 145);
+  color: #fff;
+  display: flex;
+  height: 60rpx;
+  align-items: center;
+ }

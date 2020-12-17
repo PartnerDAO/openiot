@@ -1,0 +1,63 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/home/home",
+    "pages/device/device",
+    "pages/map/map",
+    "pages/user/user",
+    "pages/todo/todo",
+    "pages/logs/logs"
+  ],
+ 
+    "useExtendedLib": {
+      "kbone": true,
+      "weui": true
+    }
+    ,
+  
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "物联网管理",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "backgroundColor":"#F0F8FF",
+    "color":"#1296db", 
+    "selectedColor":"#13227a",
+
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath":"/images/home.png",
+        "selectedIconPath":"/images/home (1).png"
+      },
+      {
+        "pagePath": "pages/device/device",
+        "text": "设备",
+        "iconPath":"/images/link.png",
+        "selectedIconPath":"/images/link (1).png"
+      },
+ 
+      {
+        "pagePath": "pages/map/map",
+        "text": "地图",
+        "iconPath":"/images/map.png",
+        "selectedIconPath":"/images/map (1).png"
+      },
+
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath":"/images/user.png",
+        "selectedIconPath":"/images/user (1).png"
+      }
+
+ 
+      
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

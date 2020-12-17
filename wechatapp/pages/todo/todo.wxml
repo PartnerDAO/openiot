@@ -1,0 +1,17 @@
+<!--pages/todo/todo.wxml-->
+<text>待办事项</text>
+<view class="body">
+<view class="todo" wx:for="{{10}}">
+  <view class="todolist">
+    <checkbox>完成</checkbox>
+    <view>待办事项内容</view>
+     <checkbox>删除</checkbox>
+  </view>
+  <view class="hline"></view>
+</view>
+
+<view class="add">
+  <input class="addinput" placeholder="输入待办，回车确认"></input>
+</view>
+
+</view>

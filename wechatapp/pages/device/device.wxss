@@ -1,0 +1,77 @@
+/* pages/device/device.wxss */
+.device{
+  width: 100%;
+}
+/* 头部CSS */
+.topDev{
+  height: 90rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #E6F3F9;
+}
+.iconcss{
+  padding: 0rpx 10rpx 0rpx 10rpx ;
+}
+.allDev{
+  width: 350rpx;
+  margin-left: 20rpx;
+  padding: 10rpx 10rpx 10rpx 10rpx ;
+  /* border: red 2px solid; */
+}
+.sDev{
+  width: 350rpx;
+  margin-left: 220rpx;
+  padding: 10rpx 10rpx 10rpx 10rpx ;
+  /* border: red 2px solid; */
+
+}
+.sDevSerandInput{
+  display: flex;
+}
+
+/* 设备列表 头部 */
+.devList{
+  padding-top: 20rpx;
+}
+.listTil{
+  display: flex;
+  
+  border: red 1px dotted;
+  width: auto;
+  height: 90rpx;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+}
+.line{
+  /* border: red 1px dotted; */
+  padding: 10rpx 10rpx 10rpx 10rpx;
+  background: whitesmoke;
+}
+.listTilViewNum{
+  width: 10%;
+  /* border:  #E6F3F9 1px solid; */
+  padding-left: 20rpx;
+  justify-content: center;
+}
+.listTilViewOther{
+  width: 90%;
+  display: flex;
+  
+  /* border: red 1px dotted; */
+
+  justify-content: stretch;
+  align-items: center;
+}
+.listl{
+  background:#E6F3F9
+}
+.listTilView{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* border: red 1px dotted; */
+  padding-left: 20rpx;
+}

@@ -1,0 +1,113 @@
+<!-- HOME首页 包含轮播广告 快速导航  告警通知 -->
+
+<view class="body">
+  <view class="head">
+    <image src="/images/top.png"></image>
+  </view>
+  <view class="bar">
+    <view class="plate">
+  <navigator url="/pages/action/action" open-type="switchTab" hover-class="other-navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="/images/处理器.png"></image>
+       </view>
+       <text class="plate-info">
+        设备设置
+       </text>
+  </navigator>
+  <navigator url="/pages/signup/signup" open-type="switchTab" 
+  hover-class="other-navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="/images/设置.png"></image>
+       </view>
+       <text class="plate-info">
+        待办事项
+       </text>
+  </navigator>
+  <navigator url="/pages/teacher/teacher" hover-class="navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="/images/数据图.png"></image>
+       </view>
+       <text class="plate-info">
+        数据报表
+       </text>
+  </navigator>
+  <navigator url="/pages/about/about" hover-class="navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="/images/演示.png"></image>
+       </view>
+       <text class="plate-info">
+        告警记录
+       </text>
+  </navigator>
+</view>
+<!-- 第二排导航 -->
+
+<view class="plate">
+  <navigator url="/pages/action/action" open-type="switchTab" hover-class="other-navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="/images/旗帜.png"></image>
+       </view>
+       <text class="plate-info">
+        定时任务
+       </text>
+  </navigator>
+  <navigator url="/pages/signup/signup" open-type="switchTab" hover-class="other-navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="/images/信号.png"></image>
+       </view>
+       <text class="plate-info">
+        养护预警
+       </text>
+  </navigator>
+  <navigator url="/pages/teacher/teacher" hover-class="navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="/images/创建图形.png"></image>
+       </view>
+       <text class="plate-info">
+        溯源追踪
+       </text>
+  </navigator>
+  <navigator url="/pages/about/about" hover-class="navigator-hover" class="plate-item">
+     <view class="plate-img">
+       <image src="/images/工程师.png"></image>
+       </view>
+       <text class="plate-info">
+        联系我们
+       </text>
+  </navigator>
+</view>
+  </view>
+  <view class="warning">
+    <view class="colourT">
+    </view>
+    <view class="waring">
+    <text>最新警报</text>
+    </view>
+  </view>
+<view class="warList">
+    <view class="table">
+      <view class="tr bg-w">
+        <view class="th">设备名称</view>
+        <view class="th">警报时间</view>
+        <view class="th ">警报事项</view>
+      </view>
+ <block>
+ <view class="tr bg-g" >
+ <view class="td">1</view>
+ <view class="td">2</view>
+ <view class="td">3</view>
+ </view>
+ <view class="tr" >
+ <view class="td">4</view>
+ <view class="td">5</view>
+ <view class="td">6</view>
+ </view>
+  <view class="tr bg-g" >
+ <view class="td">1</view>
+ <view class="td">2</view>
+ <view class="td">3</view>
+ </view>
+ </block>
+</view>
+    </view>
+</view>

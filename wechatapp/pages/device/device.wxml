@@ -1,0 +1,69 @@
+<!--pages/device/device.wxml-->
+<view class="device">
+<!-- 头部 所有设备 搜索 -->
+  <view class="topDev">
+    <view class="allDev">
+      <mp-icon class="iconcss" type="field" icon="setting" color="black" size="{{20}}"></mp-icon>
+      <text>所有设备</text>
+    </view>
+    <view class="sDev">
+      <view class="sDevSerandInput">
+        <mp-icon class="iconcss" type="field" icon="search" color="black" size="{{20}}"></mp-icon>
+        <input class="weui-input"  auto-focus placeholder="搜索"/>
+      </view>
+    </view>
+  </view>
+  <!-- 头部 所有设备 搜索 结束-->
+  <!-- 设备列表 设备序号 状态 查看 -->
+  <view class="devList">
+  <!-- 设备列表头部 -->
+    <view class="listTil">
+      <view class="listTilViewNum">
+          <view>
+          序号</view> 
+      </view>
+      <view class="listTilViewOther">
+        <view class="listTilView">
+          <view class="colourT"></view>
+          <view>名称</view>  
+        </view>
+        <view class="listTilView">
+          <view class="colourT"></view>
+          <view>状态</view> 
+        </view>
+        <view class="listTilView">
+          <view class="colourT"></view>
+          <view>控制</view> 
+        </view>
+      </view>
+    </view> 
+     <!-- 设备列表头部结束 -->
+    <!-- 设备列表 -->
+    <view class="listl" wx:for="{{20}}" wx:key="index">
+            <view class="line"> </view>
+      <view class="listTil" >
+          <view class="listTilViewNum">
+          {{index+1}}
+          </view>
+        <view class="listTilViewOther">
+        
+          <view class="listTilView">
+                    <view class="colourT"></view>
+          测试设备
+          </view>
+          <view class="listTilView">
+                    <view class="colourT"></view>
+          在线
+          </view>
+          <view class="listTilView">
+                    <view class="colourT"></view>
+            <mp-icon icon="play2" color="black" size="{{25}}"></mp-icon>
+            <mp-icon icon="pause" color="black" size="{{25}}"></mp-icon>
+            <mp-icon icon="add" color="black" size="{{25}}"></mp-icon>
+          </view>
+         </view> 
+      </view>
+    </view>
+    <!-- 设备列表结束 -->
+  </view>
+</view>
