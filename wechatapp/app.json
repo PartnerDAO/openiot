@@ -31,27 +31,27 @@
         "pagePath": "pages/home/home",
         "text": "首页",
         "iconPath":"/images/home.png",
-        "selectedIconPath":"/images/home (1).png"
+        "selectedIconPath":"/images/homes.png"
       },
       {
         "pagePath": "pages/device/device",
         "text": "设备",
         "iconPath":"/images/link.png",
-        "selectedIconPath":"/images/link (1).png"
+        "selectedIconPath":"/images/links.png"
       },
  
       {
         "pagePath": "pages/map/map",
         "text": "地图",
         "iconPath":"/images/map.png",
-        "selectedIconPath":"/images/map (1).png"
+        "selectedIconPath":"/images/maps.png"
       },
 
       {
         "pagePath": "pages/user/user",
         "text": "我的",
         "iconPath":"/images/user.png",
-        "selectedIconPath":"/images/user (1).png"
+        "selectedIconPath":"/images/users.png"
       }
 
  

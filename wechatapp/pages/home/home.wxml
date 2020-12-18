@@ -4,36 +4,37 @@
   <view class="head">
     <image src="/images/top.png"></image>
   </view>
+  <!-- 导航开始 -->
   <view class="bar">
     <view class="plate">
-  <navigator url="/pages/action/action" open-type="switchTab" hover-class="other-navigator-hover" class="plate-item">
+     <navigator url="/pages/add/add" open-type="switchTab" hover-class="other-navigator-hover" class="plate-item">
      <view class="plate-img">
-       <image src="/images/处理器.png"></image>
+       <image src="/images/device.png"></image>
        </view>
        <text class="plate-info">
-        设备设置
+        添加设备
        </text>
-  </navigator>
-  <navigator url="/pages/signup/signup" open-type="switchTab" 
+   </navigator>
+  <navigator url="/pages/todo/todo" open-type="switchTab" 
   hover-class="other-navigator-hover" class="plate-item">
      <view class="plate-img">
-       <image src="/images/设置.png"></image>
+       <image src="/images/todo.png"></image>
        </view>
        <text class="plate-info">
         待办事项
        </text>
   </navigator>
-  <navigator url="/pages/teacher/teacher" hover-class="navigator-hover" class="plate-item">
+  <navigator url="/pages/data/data" hover-class="navigator-hover" class="plate-item">
      <view class="plate-img">
-       <image src="/images/数据图.png"></image>
+       <image src="/images/data.png"></image>
        </view>
        <text class="plate-info">
         数据报表
        </text>
   </navigator>
-  <navigator url="/pages/about/about" hover-class="navigator-hover" class="plate-item">
+  <navigator url="/pages/warning/warning" hover-class="navigator-hover" class="plate-item">
      <view class="plate-img">
-       <image src="/images/演示.png"></image>
+       <image src="/images/warning.png"></image>
        </view>
        <text class="plate-info">
         告警记录
@@ -43,17 +44,17 @@
 <!-- 第二排导航 -->
 
 <view class="plate">
-  <navigator url="/pages/action/action" open-type="switchTab" hover-class="other-navigator-hover" class="plate-item">
+  <navigator url="/pages/time/time" open-type="switchTab" hover-class="other-navigator-hover" class="plate-item">
      <view class="plate-img">
-       <image src="/images/旗帜.png"></image>
+       <image src="/images/time.png"></image>
        </view>
        <text class="plate-info">
         定时任务
        </text>
   </navigator>
-  <navigator url="/pages/signup/signup" open-type="switchTab" hover-class="other-navigator-hover" class="plate-item">
+  <navigator url="/pages/maintenance/maintenance" open-type="switchTab" hover-class="other-navigator-hover" class="plate-item">
      <view class="plate-img">
-       <image src="/images/信号.png"></image>
+       <image src="/images/maintenance.png"></image>
        </view>
        <text class="plate-info">
         养护预警
@@ -61,7 +62,7 @@
   </navigator>
   <navigator url="/pages/teacher/teacher" hover-class="navigator-hover" class="plate-item">
      <view class="plate-img">
-       <image src="/images/创建图形.png"></image>
+       <image src="/images/retrospect.png"></image>
        </view>
        <text class="plate-info">
         溯源追踪
@@ -69,7 +70,7 @@
   </navigator>
   <navigator url="/pages/about/about" hover-class="navigator-hover" class="plate-item">
      <view class="plate-img">
-       <image src="/images/工程师.png"></image>
+       <image src="/images/contactus.png"></image>
        </view>
        <text class="plate-info">
         联系我们

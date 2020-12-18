@@ -23,8 +23,9 @@
   margin-left:42rpx;
 }
 .plate-img image{
-  width: 96rpx;
-  height: 96rpx;
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 10rpx;
 }
 .plate-info{
   position: absolute;
