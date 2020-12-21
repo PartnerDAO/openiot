@@ -83,6 +83,20 @@
 					"id": -1,
 					"name": "pages/todo/todo",
 					"pathName": "pages/todo/todo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/user/user",
+					"pathName": "pages/user/user",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/retrospect/retrospect",
+					"pathName": "pages/retrospect/retrospect",
 					"scene": null
 				}
 			]

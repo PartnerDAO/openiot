@@ -60,7 +60,7 @@
         养护预警
        </text>
   </navigator>
-  <navigator url="/pages/teacher/teacher" hover-class="navigator-hover" class="plate-item">
+  <navigator url="/pages/retrospect/retrospect" hover-class="navigator-hover" class="plate-item">
      <view class="plate-img">
        <image src="/images/retrospect.png"></image>
        </view>
@@ -68,7 +68,7 @@
         溯源追踪
        </text>
   </navigator>
-  <navigator url="/pages/about/about" hover-class="navigator-hover" class="plate-item">
+  <navigator url="/pages/contactus/contactus" hover-class="navigator-hover" class="plate-item">
      <view class="plate-img">
        <image src="/images/contactus.png"></image>
        </view>

@@ -1,1 +1,50 @@
 /* pages/user/user.wxss */
+.usertop{
+
+  height: 200rpx;
+  background-color: #37678F;
+
+}
+.usertop view{
+  margin-left: 30rpx;
+  margin-top: 20rpx;
+}
+.usertop view text{
+  color: aliceblue;
+
+}
+.tab{
+  height: 80rpx;
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  margin: 40rpx 40rpx 40rpx 40rpx;
+}
+.userlist{
+  background-color: rgb(227, 231, 241);
+}
+.userlisttab{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20rpx;
+}
+.userlisttab20{
+  width: 20%;
+}
+.userlisttab80{
+  width: 80%;
+  background-color: rgb(250, 247, 250);
+  border: 1rpx solid rgb(228, 225, 225);
+}
+
+.line{
+  border: 1rpx solid whitesmoke;
+}
+.vertical{
+  height: 30rpx;
+}
+
+.foot{
+  margin-top: 40rpx;
+  display: flex;
+}

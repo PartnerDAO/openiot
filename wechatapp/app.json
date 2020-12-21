@@ -3,6 +3,7 @@
     "pages/index/index",
     "pages/home/home",
     "pages/device/device",
+    "pages/retrospect/retrospect",
     "pages/map/map",
     "pages/user/user",
     "pages/todo/todo",
@@ -42,7 +43,7 @@
  
       {
         "pagePath": "pages/map/map",
-        "text": "地图",
+        "text": "位置",
         "iconPath":"/images/map.png",
         "selectedIconPath":"/images/maps.png"
       },

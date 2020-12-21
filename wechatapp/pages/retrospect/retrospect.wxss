@@ -1,0 +1,86 @@
+.top{
+  background-color: #37678F;
+  height: 100rpx;
+}
+.bar{
+  width: 750rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.bian{
+  width: 10%;
+}
+.btop{
+  /* width: 40rpx; */
+  height: 100rpx;
+  background-color: #37678F;
+}
+.bar2s{
+  width: 90%;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.bar2s view image{
+  width: 100rpx;
+  height: 100rpx;
+  margin-bottom: 20rpx;
+}
+.bar2s view {
+  margin-top: 40rpx;
+  margin-right: 60rpx;
+  margin-left: 60rpx;
+  width: 130rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listtop{
+  height: 40rpx;
+  display: flex;
+  margin-top: 40rpx;
+  margin-bottom: 40rpx;
+}
+.line{
+  margin-right: 10rpx;
+  margin-left: 20rpx;
+  width: 5rpx;
+  height: 60rpx;
+  background-color:#37678F ;
+}
+.listall{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5rpx;
+  background-color: rgb(191, 230, 230);
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.listallline{
+  height: 100rpx;
+  width: 10rpx;
+  background-color:#37678F ;
+}
+.listallname{
+  width: 30%;
+  margin-left: 20rpx;
+}
+.listalln{
+  width: 50%;
+}
+.listallmore{
+  width: 20%;
+  background-color:#eed80f ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.listallmore text{
+
+  size: 24rpx;
+  color: aliceblue;
+}

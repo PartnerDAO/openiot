@@ -1,0 +1,47 @@
+<!-- 溯源页面 -->
+<!-- 头部背景 -->
+<view class="top">
+
+</view>
+
+<!-- 溯源按钮 扫描与输入查询-->
+<view class="bar">
+  <view class="bian">
+    <view class="btop"></view>
+    <view class="bfoot"></view>
+  </view >
+  <view class="bar2s">
+    <view> 
+      <image src="/images/scan.png"></image>
+      <text>扫码查看</text> 
+    </view>
+    <view> 
+      <image src="/images/write.png"></image>
+      <text>输入查看</text> 
+    </view>
+  </view>
+  <view class="bian">
+    <view class="btop"></view>
+    <view class="bfoot"></view>
+  </view>
+
+</view>
+
+<!-- 最新溯源信息列表 -->
+<view class="listtop">
+  <view class="line"></view>
+  <view> 追溯记录 </view>
+</view>
+
+<view class="listall" wx:for="{{10}}" wx:key="id">
+  <view class="listallline"></view>
+  <view class="listallname">
+    <view>品名：</view>
+    <view>识别码：</view>
+  </view>
+  <view class="listalln">
+    <view>大蒜油</view>
+    <view>22787929</view>
+  </view>
+  <view class="listallmore"><text>查看更多</text> </view>
+</view>
