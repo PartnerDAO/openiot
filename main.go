@@ -1,9 +1,9 @@
 package main
 
 import (
-	// "fmt"
 	"html/template"
 	"net/http"
+	"openiot/controllers"
 )
 
 func main() {
@@ -14,6 +14,7 @@ func main() {
 
 	http.HandleFunc("/main", IndexHandler)
 	http.ListenAndServe(":9090", nil)
+	http.HandleFunc("/login", controllers.Login)
 }
 
 //IndexHandler 首页模板函数
